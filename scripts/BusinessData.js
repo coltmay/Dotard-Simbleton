@@ -110,3 +110,8 @@ const businesses = [
       addressCity: "Watrous"
     }
   ];
+
+  // export a function that returns this array
+  export const getBusinesses = () => {
+    return businesses.slice()
+  }
